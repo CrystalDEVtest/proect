@@ -215,9 +215,11 @@ a.low:hover, a.low:focus
 	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
 p.l {
-	color:#131313;
+	color:white;
 }
-
+strong.l1 {
+	color:white;
+}
 
 .hr-up {
 height: 20px;
@@ -330,3 +332,4 @@ animation: AnimText 6s ease infinite;
 50%{background-position:100% 50%}
 100%{background-position:0% 50%}
 }
+
