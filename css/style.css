@@ -1,4 +1,5 @@
-.fon {background-repeat: no repeat;}
+.fon {background-repeat: no repeat;} /*фон*/
+/*меню*/
 #header{
 	width: 800;
 	height: 150;
@@ -16,7 +17,7 @@ header{
 	color:#222222;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
-
+/*блочный контейнер*/
 * {
   margin: 0;
   padding: 0;
@@ -34,7 +35,7 @@ header{
   gap: 120px;
   background: #27282c;
 }
-
+/*кнопка*/
 .button {
   position: relative;
   padding: 16px 30px;
@@ -157,6 +158,7 @@ header{
 .button:hover span:nth-child(4 ) {
   bottom: 50%;
 }
+/*список*/
 li {
      font-style: italic;
      line-height: 20px;
@@ -167,6 +169,7 @@ li {
 div {
 display: flex;
 }
+/*классы для оформелния*/
 a.glow, a.glow:hover, a.glow:focus
 {
 	text-decoration: none;
@@ -214,29 +217,12 @@ a.low:hover, a.low:focus
 	color: #1e9bff;
 	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
 }
+/*абзац*/
 p.l {
 	color:white;
 }
 strong.l1 {
 	color:white;
-}
-
-.hr-up {
-height: 20px;
-border-style: solid;
-border-color: black;
-border-width: 1px 0 0 0;
-border-radius: 20px;
-}
-.hr-down {
-display: block;
-content: "";
-height: 30px;
-margin-top: -31px;
-border-style: solid;
-border-color: black;
-border-width: 0 0 1px 0;
-border-radius: 20px;
 }
 
 hr {
@@ -278,7 +264,7 @@ animation: AnimText 6s ease infinite;
 100%{background-position:0% 50%}
 }
 
-
+/*маркированный список*/
 ul.header-blog li{
 	list-style: none;
 	display: inline;
